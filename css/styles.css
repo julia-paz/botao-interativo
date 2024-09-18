@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0
+}
+/* Centraliza os elementos na tela */
+.container {
+    text-align: center;
+    background-color: rgb(243, 137, 169);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Estilo dos botões */
+.botao {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(243, 137, 169);
+    color: white;
+    transition: all 0.3s ease;
+}
+/* Quando o botão for clicado, ele muda de cor */
+.botao:active {
+    background-color: rgb(238, 107, 146)
+}
+
+.botao:hover {
+    background-color: rgb(250, 120, 159);
+}
+/* Oculta a mensagem de erro inicialmente */
+.oculto {
+    display: none;
+    color: red;
+    font-size: 18px;
+    margin-top: 10px;
+}
